@@ -1,3 +1,4 @@
+## docker build --no-cache=true -f dockerfile -t layzer/tsunami:v0.0.1 .
 FROM golang:1.23.1 as builder
 LABEL author="gitlayzer"
 LABEL email="gduxintian@gmail.com"
